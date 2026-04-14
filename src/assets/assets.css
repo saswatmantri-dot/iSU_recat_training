@@ -1,0 +1,27 @@
+.sideBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.main-page {
+  margin-left: 220px;
+  padding: 20px;
+  min-height: calc(100vh - 60px); /* space for footer */
+  background: #f5f7fa;
+}
+
+.footer {
+  margin-left: 220px;
+  height: 60px;
+  background: #34495e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

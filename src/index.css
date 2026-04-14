@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN AREA (content section) */
+.mainArea {
+  margin-left: 220px; /* space for sidebar */
+  padding: 30px;
+  min-height: calc(100vh - 60px); /* space for footer */
+  background-color: #f5f7fa;
+}
+
+/* Input box containers */
+.nameInputBox,
+.roleInputBox,
+.statusInputBox {
+  margin-bottom: 15px;
+}
+
+/* Optional: style inputs globally (if not already styled inside UserInputBox) */
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Display area (top message/component) */
+.mainArea > :first-child {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-left: 220px; /* aligns with sidebar */
+  height: 60px;
+  background-color: #808080; /* grey */
+  color: white;
+
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+
+  font-size: 14px;
+}
+
+.sideBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+
+  background: linear-gradient(180deg, #2c3e50, #1a252f);
+  color: #ffffff;
+
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
