@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Footer() {
+function Footer({className}) {
   return (
-    <h3 style={{paddingLeft: '600px'}}>
+    <h3 className={className}>
         This is a footer
     </h3>
   )

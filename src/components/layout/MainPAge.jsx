@@ -5,7 +5,7 @@ import AdminWelcome from '../common/AdminWelcome';
 import NormalUserWelcome from '../common/NormalUserWelcome';
 import SupportPage from '../common/SupportPage';
 
-function MainPAge() {
+function MainPAge({className}) {
 
 const [nameVal, namePointer] = useState("");
 const [roleVal, rolePointer] = useState("");
@@ -41,7 +41,7 @@ const takeName = (event) => {
   };
 
   return (
-    <div className="mainArea" >
+    <div className={className} >
           {mainPageVal}  
         
     <div className="nameInputBox">

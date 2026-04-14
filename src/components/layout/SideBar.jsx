@@ -1,8 +1,8 @@
 import React from 'react'
 
-function SideBar() {
+function SideBar({className}) {
   return (
-    <div >This is SideBar</div >
+    <div className={className}>This is SideBar</div >
   )
 }
 
