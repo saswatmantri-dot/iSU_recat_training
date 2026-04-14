@@ -57,7 +57,7 @@ button:hover {
   height: 60px;
   background-color: #808080; /* grey */
   color: white;
-
+  padding-left: 600px;
   display: flex;
   align-items: center;      /* vertical center */
   justify-content: center;  /* horizontal center */
