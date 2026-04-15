@@ -16,6 +16,7 @@ The project starts from the LoginApp.jsx file and global css isloaded from asset
 3. The common folder contains all the reusable components used throught the project.
 4. The layout folder contains the page layout components.
 
+```bash
 src/
 ├── assets/
 │   ├── assets.css
@@ -38,7 +39,7 @@ src/
 ├── index.css
 ├── LoginApp.jsx
 └── main.jsx
-
+```
 
 ## Browser views
 ![alt text](react_day1_assignment.png)
